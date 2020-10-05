@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/harrysolovay/evil-react-template.git"
+    "url": "https://github.com/harrysolovay/react-templates-are-evil.git"
   },
   "dependencies": {
     "next": "^9.5.3",
