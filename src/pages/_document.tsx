@@ -3,7 +3,7 @@ import React from "react";
 
 type GetInitialProps = typeof Document.getInitialProps;
 
-export default class CrosshatchDoc extends Document {
+export default class Doc extends Document {
   static getInitialProps: GetInitialProps = async (ctx) => {
     return Document.getInitialProps(ctx);
   };
