@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./inter.scss";
+
+html {
+  font-family: "Inter";
+  font-size: 16px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-weight: 200;
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}

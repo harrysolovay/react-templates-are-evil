@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "isolatedModules": false,
+    "module": "CommonJS",
+    "target": "ESNext"
+  },
+  "extends": "../tsconfig.json",
+  "include": ["."]
+}
