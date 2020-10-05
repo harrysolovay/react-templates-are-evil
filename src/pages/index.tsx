@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async (ctx) => {
-  ctx; // TODO: remove this (temporarily prevents TS error pertaining to unused local `ctx`)
+  ctx; // TODO: remove this (temporarily prevents TS error pertaining to unused parameter `ctx`)
   return {props: {serverSideComputedProp: await Promise.resolve(v4())}};
 };
 
